@@ -1,0 +1,70 @@
+.post-details {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.comments {
+    width: 700px;
+}
+
+.comments__item {
+    display: flex;
+    flex-direction: column;
+
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 3px solid #bfc7c7;
+    border-radius: 20px 20px;
+
+    h3 {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    span {
+        font-size: 14px;
+        font-weight: 300;
+        padding-left: 1rem;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        
+    }
+}
+
+.btn__block {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+
+    top: 1rem;
+    right: 0;
+    width: 15%;
+}
+
+.edit-btn, .delete-btn {
+
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+
+    color: #000;
+
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+        opacity: 0.4;
+    }
+}
+
+.edit-textarea {
+    height: 100px;
+}

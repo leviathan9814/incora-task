@@ -1,0 +1,84 @@
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+
+.input-form {
+    width: 80%;
+    height: 36px;
+    margin-bottom: 1rem;
+    border: 2px solid #bfc7c7;
+    border-radius: 10px;
+    padding-left: 1rem;
+
+    transition: background-color .2s linear;
+
+    &:hover {
+        background-color: rgba(184, 223, 227, 0.3);
+    }
+
+    &:focus {
+        background-color: rgba(184, 223, 227, 0.3);
+    }
+
+}
+
+
+.textarea-form {
+    width: 80%;
+    height: 120px;
+    margin-bottom: 1rem;
+    border: 2px solid #bfc7c7;
+    border-radius: 10px;
+    resize: none;
+    padding: 1rem 1rem;
+
+    font-family: inherit;
+
+    transition: background-color .2s linear;
+
+    &:hover {
+        background-color: rgba(184, 223, 227, 0.3);
+    }
+
+    &:focus {
+        background-color: rgba(184, 223, 227, 0.3);
+    }
+
+}
+
+.btn-form {
+    width: 170px;
+    height: 50px;
+    margin-top: 1rem;
+
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    
+    border: none;
+    background-color: #000;
+    color: #fff;
+
+    border-radius: 20px;
+
+    -webkit-box-shadow: 0px 8px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 8px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 8px 8px 0px rgba(34, 60, 80, 0.2);
+
+    transition: all 0.2s linear;
+
+    &:hover {
+        background-color: transparent;
+        color: #000;
+        border: 1px solid #000
+    }
+}
