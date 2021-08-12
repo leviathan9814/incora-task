@@ -1,1 +1,1 @@
-gh-pages: https://github.com/leviathan9814/incora-task
+gh-pages: https://leviathan9814.github.io/incora-task/
