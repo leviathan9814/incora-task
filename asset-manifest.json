@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/incora-task/static/css/main.a3ca8215.chunk.css",
+    "main.js": "/incora-task/static/js/main.5dddd8f6.chunk.js",
+    "main.js.map": "/incora-task/static/js/main.5dddd8f6.chunk.js.map",
+    "runtime-main.js": "/incora-task/static/js/runtime-main.9eb78777.js",
+    "runtime-main.js.map": "/incora-task/static/js/runtime-main.9eb78777.js.map",
+    "static/js/2.645e10a4.chunk.js": "/incora-task/static/js/2.645e10a4.chunk.js",
+    "static/js/2.645e10a4.chunk.js.map": "/incora-task/static/js/2.645e10a4.chunk.js.map",
+    "index.html": "/incora-task/index.html",
+    "static/css/main.a3ca8215.chunk.css.map": "/incora-task/static/css/main.a3ca8215.chunk.css.map",
+    "static/js/2.645e10a4.chunk.js.LICENSE.txt": "/incora-task/static/js/2.645e10a4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9eb78777.js",
+    "static/js/2.645e10a4.chunk.js",
+    "static/css/main.a3ca8215.chunk.css",
+    "static/js/main.5dddd8f6.chunk.js"
+  ]
+}
